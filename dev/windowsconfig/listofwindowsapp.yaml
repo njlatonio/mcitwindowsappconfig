@@ -1,0 +1,10 @@
+listofwindowsapp:
+  - name: ccwinvm01dev  
+    os_type: Linux
+    sku_name: P1v2
+  - name: ccwinvm02dev
+    os_type: Linux
+    sku_name: EP1
+  - name: ccwinvm03dev     
+    os_type: Linux
+    sku_name: WS1
