@@ -13,8 +13,8 @@ locals{
 }
 
 resource "azurerm_resource_group" "azureresourcegroup_windowsapp" {
-  name     = "MCIT_lab_session_windowsapp"
-  location = "Canada Central"
+  name     = var.name
+  location = var.location
 }
 
 resource "azurerm_service_plan" "windowsbatcha06sp" {
